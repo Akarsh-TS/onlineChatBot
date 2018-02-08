@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400|Quattrocento+Sans');
+
+body{
+	margin: 0;
+	background-color: #eee;
+	padding: 0;
+	font-family: 'Quattrocento Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+.top{
+	height: 80px;
+	width: 100%;
+	background-color: #D8D8D8	;
+	border-bottom: 2px solid #d3d3d3;
+}
+.mainchat{
+	height:586px;
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.image{
+	width:auto;
+	float: left;
+	margin: 20px;
+	margin-left: 40px;
+	vertical-align:middle;
+	line-height: 70px;
+}
+.image img{
+	
+	width: 35px;
+}
+#powered{
+	width: 100%;
+	text-align: right;
+	font-weight: 500;
+	padding:0 20px 0 0;
+	color: grey;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+div.top p{
+	display: inline-block;
+	float: left;
+	margin: 0;
+	width: auto;
+	padding: 0;
+	vertical-align:middle;
+	line-height: 90px;
+	font-weight: 800;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+div.chat,div.chat{
+	background-color: #3c59ff;
+	display: inline-block;
+	clear: both;
+	color: white;
+	width: auto;
+	height: auto;
+	max-width: 70%;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding: 10px;
+	border-radius:20px; 
+}
+div.to{
+	float: right;
+	background-color:white;
+	color:#6666e1;
+	font-weight: 600;
+	text-align: right;
+	margin-right: 25px;
+}
+div.chat p{
+	margin: 0;
+	text-align: justify;
+}
+div.from{
+	float: left;
+	margin-left: 25px;
+	text-align: right;
+}
+div.chat p{
+	margin-left:20px;
+	margin-right:10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+textarea{
+	width:inherit;
+	height: 45px;
+	background-color: #fbfbfb;
+	resize: none;
+	overflow-y: scroll;
+	border-color: #d3d3d3;
+	border:none;
+	font-size: 25px;
+	vertical-align: middle;
+	line-height: 45px;
+	font-family: 'Josefin Sans', sans-serif;
+	color:grey;
+}
+textarea:focus{
+	border: none;
+	outline: none;
+}
+.mainchat::-webkit-scrollbar{
+	width: 10px;
+}
+textarea::-webkit-scrollbar{
+	width: 10px;
+}
+div.t{
+	width: 100%;
+}
+div.form{
+	border-top: 2px solid #d3d3d3;
+	position: fixed;
+	display: flex;
+	float: left;
+	width:100%;
+	
+}
+.button img{
+	cursor: pointer;
+	width: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
